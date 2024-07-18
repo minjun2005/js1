@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"></meta>
+  <title>Document</title>
+</head>    
+<body>
+
+    <h2 id="hello">반갑고</h2>
+
+    <script>
+    
+      document.getElementById("hello").style.fontSize =  '50px';
+    
+    </script> 
+</body>
+</html>
