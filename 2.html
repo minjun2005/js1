@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="csstest.css">
+</head>    
+<body>
+
+  <div id="box" class="alert-box">
+    <p>Alert 박스</p>
+    <button onclick="알림창('none','box')">아이디입력하셈</button>
+  </div>
+  <button onclick="알림창('block','box')">버튼1</button>
+
+
+  <div id="box1" class="alert-box">
+    <p>Alert 박스</p>
+    <button onclick="알림창('none','box1')">비번입력하셈</button>
+  </div>
+  <button onclick="알림창('block','box1')">버튼2</button>
+
+
+    <script>
+    
+      function 알림창(pa,pa1){
+        document.getElementById(pa1).style.display = pa
+      }
+
+    </script> 
+
+      
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+
+
+    
+    
+</body>
+</html>
